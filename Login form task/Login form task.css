@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.red{
+background-image: url(Technology\ image.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.map{
+
+    width: 47%;
+    border: 3px groove red;
+    background: aqua;
+    margin: 60px 10px 60px 1px;
+    box-shadow: 1px 1px 6px 2px bisque;
+    border-radius: 42px;
+}
+.map iframe{
+    
+    width: 100%;
+    height: 482px;
+    border-radius: 8%;
+    box-shadow: 1px 1px 6px 1px green;
+}
+.login{
+
+    background:linear-gradient(rgb(168, 1, 168),#00f3ff,#74ff00,orangered,#ffcb00);
+    margin: 60px 0px 60px 98px;
+    /*! padding: 0px -13px; */
+    border: 3px groove red;
+    box-shadow: 1px 1px 6px 2px bisque;
+}
+.login form{
+    
+}
+.login form button{
+    
+    display: block;
+    padding: 11px 48px;
+    border: 2px solid #009fff;
+    background: aqua;
+    border-radius: 35%;
+    margin: 59px 32px 1px 162px;
+}
+#nm{
+
+    display: block;
+    padding: 11px 48px;
+    border: 2px solid #ff0080;
+    background: #ffc30f;
+    margin: 59px 110px 1px 116px;
+}
+#pn{
+    
+    display: block;
+    padding: 11px 48px;
+    border: 2px solid #ff0080;
+    background: #ffc30f;
+    margin: 59px 1px 1px 116px;
+}
+#myInput{
+
+    display: block;
+    padding: 11px 48px;
+    border: 2px solid #ff0080;
+    background: #ffc30f;
+    margin: 59px 1px 1px 116px;
+}
+#cb{
+
+    margin: 0px 1px 1px 182px;
+}

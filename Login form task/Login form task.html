@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form Task</title>
+    <link href="bootstrap-4.6.2-dist/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css"> 
+    <link href="Login form task.css" rel="stylesheet" type="text/css">
+    <script src="Login form task.js"></script>
+</head>
+<body>
+<div class="container-fluid red">
+<div class="container">
+<div class="row">
+
+<div class="map">
+<iframe  src="https://maps.google.com/maps?q=eluru&t=&z=10&ie=UTF8&iwloc=&output=embed" 
+frameborder="0" 
+scrolling="no" marginheight="0" marginwidth="0">
+</iframe>
+</div>
+
+<div class="login">
+<form action="">
+    <input type="text" name="" id="nm" value="" placeholder="USER NAME">
+    <input type="tel" name="" id="pn" value="" placeholder="PHONE NUMBER">
+    <input type="password" value="" id="myInput" placeholder="Enter your password"><br><br>
+    <input type="checkbox" onclick="myFunction()" id="cb">Show Password
+    <button>Submit</button>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+</form>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+</body>
+</html>
